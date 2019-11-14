@@ -4,6 +4,7 @@ A simple Spring Boot webapp using:
 * Github OAuth
 
 Link to github page: https://ucsb-cs56-f19.github.io/lab07-derek-m-cheng/
+Link to herokuapp: https://cs56-f19-lab07-derek-m-cheng.herokuapp.com/
 
 # Running on Localhost.
 
