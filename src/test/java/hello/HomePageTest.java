@@ -61,7 +61,7 @@ public class HomePageTest {
                 .andExpect(xpath("//title").string("CS56 Spring Boot Practice App"));
     }
 
-    @Test
+     @Test
     public void getHomePage_hasCorrectBrand() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
