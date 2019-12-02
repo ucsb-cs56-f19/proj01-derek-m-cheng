@@ -3,11 +3,11 @@ A simple Spring Boot webapp using:
 * Pulling in Bootstrap from CDN.
 * Github OAuth
 
-Link to GitHub page: https://ucsb-cs56-f19.github.io/lab07-derek-m-cheng/
+Link to GitHub page : https://ucsb-cs56-f19.github.io/proj01-derek-m-cheng/
 
 Link to HerokuApp: https://cs56-f19-lab07-derek-m-cheng.herokuapp.com/
 
-Link to Travis-CI: https://travis-ci.org/ucsb-cs56-f19/lab07-derek-m-cheng
+Link to Travis-CI: https://travis-ci.org/ucsb-cs56-f19/proj01-derek-m-cheng
 
 
 # Running on Localhost.
