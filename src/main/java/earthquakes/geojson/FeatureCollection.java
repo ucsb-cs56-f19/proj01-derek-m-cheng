@@ -1,4 +1,4 @@
-package hello.geojson;
+package earthquakes.geojson;
 
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import hello.geojson.FeatureCollection;
+import earthquakes.geojson.FeatureCollection;
 import java.util.List;
 
 public class FeatureCollection {
