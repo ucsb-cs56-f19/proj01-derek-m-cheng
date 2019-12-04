@@ -24,11 +24,23 @@
       <table class ="table">
 	      <thread>
 	      <tr>
+		      <th>Place ID</th>
+		      <th>Latitude</th>
+		      <th>Longitude</th>
 		      <th>Display Name</th>
-		      <td th:text="${locSearch.location}"></td>
+		      <th>Type</th>
 	      </tr>
+	      </thread>
+	      <tbody>
+		      <tr th:each="f: ${place}">
+			      <td th:text="${f.place_id}"></td>
+			      <td th:text="${f.lat}"></td>
+			      <td th:text="${f.lon}"></td>
+			      <td th:text="${f.display_name}"></td>
+			      <td th:text="${ftype}"></td>
+		      </tr>
+	      </tbody>
       </table>
-      <pre th:text="${json}">This is placeholder</pre>
 
       <div th:replace="bootstrap/bootstrap_footer.html"></div>
     </div>
