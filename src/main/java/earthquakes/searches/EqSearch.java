@@ -9,15 +9,15 @@ public class EqSearch {
 
 	EqSearch() {};
 
-	public int getDistance() {return distance;}
-	public int getMinmag() {return minmag;}
-	public double getLat() {return lat;}
-	public double getLon() {return lon;}
-	public String getLocation() {return location;}
+	public int getDistance() {return this.distance;}
+	public int getMinmag() {return this.minmag;}
+	public double getLat() {return this.lat;}
+	public double getLon() {return this.lon;}
+	public String getLocation() {return this.location;}
 
-	public void setDistance(int dist) {distance = dist;}
-	public void setMinmag(int mm) {minmag = mm;} 
-	public void setLat(double latitude) {lat = latitude;}
-	public void setLon(double longitude) {lon = longitude;}
-	public void setLocation(String loc) {location = loc;}
+	public void setDistance(int distance) {this.distance = distance;}
+	public void setMinmag(int minmag) {this.minmag = minmag;} 
+	public void setLat(double lat) {this.lat = lat;}
+	public void setLon(double lon) {this.lon = lon;}
+	public void setLocation(String location) {this.location = location;}
 }
