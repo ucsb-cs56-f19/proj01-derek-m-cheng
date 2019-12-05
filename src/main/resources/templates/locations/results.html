@@ -39,7 +39,7 @@
 			      <td th:text="${f.lon}"></td>
 			      <td th:text="${f.display_name}"></td>
 			      <td th:text="${f.type}"></td>
-			      <a th:href="@{/earthquakes/search/(lat=${f.lat},lon=${f.lon},location=${f.display_name})}">Get Earthquakes</a>
+			      <td><a th:href="@{/earthquakes/search/(lat=${f.lat},lon=${f.lon},location=${f.display_name})}">Get Earthquakes</a></td>
 		      </tr>
 	      </tbody>
       </table>
