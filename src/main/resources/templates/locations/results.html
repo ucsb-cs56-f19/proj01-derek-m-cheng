@@ -29,6 +29,7 @@
 		      <th>Longitude</th>
 		      <th>Display Name</th>
 		      <th>Type</th>
+		      <th>Get Earthquakes</th>
 	      </tr>
 	      </thread>
 	      <tbody>
@@ -38,6 +39,7 @@
 			      <td th:text="${f.lon}"></td>
 			      <td th:text="${f.display_name}"></td>
 			      <td th:text="${f.type}"></td>
+			      <a th:href="@{/earthquakes/search/(lat=${p.lat},lon=${p.lon},location=${p.display_name})}">Get Earthquakes</a>
 		      </tr>
 	      </tbody>
       </table>
