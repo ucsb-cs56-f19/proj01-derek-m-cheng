@@ -1,5 +1,6 @@
 package earthquakes.controllers;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import earthquakes.osm.Place;
 import earthquakes.services.LocationQueryService;
 import earthquakes.searches.LocSearch;
